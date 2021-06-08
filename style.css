@@ -1,0 +1,94 @@
+/* Common */
+.btn-back {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    border: 1px solid rgb(95, 94, 94);
+    background-color: #c9c6c6;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    margin-bottom: 50px;
+}
+.btn-back:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #a7a7a7;
+}
+
+/* Main page */
+.colored {
+    background-color: #ececec;
+    width: 220px;
+    height: 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.wrapper {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a {
+    color: rgb(0, 0, 0);
+}
+
+li a:visited {
+    color: #4a4a4a;
+}
+
+li a:active {
+    color: #a5a5a5;
+}
+
+ul {
+    margin-left: 40px;
+    letter-spacing: 3px;
+}
+  
+ul li {
+    display: block;
+    position: relative;
+    margin-bottom: 16px;
+}
+  
+ul li:before {
+    content: "";
+    position: absolute;
+    top: 1.1em;
+    left: -40px;
+    margin-top: -.9em;
+    background: #030303;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #eeeeee, #171717);
+}
+
+/* Task_01 */
+
+/* Task_02 */
+
+/* Task_03 */
+.trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;    
+}
+
+/* Task_04 */
+
+/* Task_05 */
+.pointer {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+}
